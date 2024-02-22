@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fourth</string>
+    <string name = "aditya">Punit</string>
+    <string-array name="raj">
+        <item>AdityaRaj</item>
+        <item>Punit</item>
+    </string-array>
+</resources>
