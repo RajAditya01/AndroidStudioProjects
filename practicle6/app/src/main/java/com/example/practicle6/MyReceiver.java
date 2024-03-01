@@ -12,7 +12,6 @@ public class MyReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         Toast.makeText(context, "PhoneStateChangedReceiver triggered", Toast.LENGTH_LONG).show();
 
-        Toast.makeText(context)
         String triggeredState = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
 
         if (triggeredState != null) {
